@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lint-action-test", "lint-action-test\lint-action-test.csproj", "{409D0ACE-5C93-4155-9253-0D4E10F1CECC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{AD8E07F2-FC3E-4AF5-BD8D-6AC6AD73B1C7}"
+	ProjectSection(SolutionItems) = preProject
+		..\.editorconfig = ..\.editorconfig
+		..\.github\workflows\lint.yaml = ..\.github\workflows\lint.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{409D0ACE-5C93-4155-9253-0D4E10F1CECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{409D0ACE-5C93-4155-9253-0D4E10F1CECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{409D0ACE-5C93-4155-9253-0D4E10F1CECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{409D0ACE-5C93-4155-9253-0D4E10F1CECC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD720AB7-E010-4827-823E-DED21760221D}
+	EndGlobalSection
+EndGlobal
