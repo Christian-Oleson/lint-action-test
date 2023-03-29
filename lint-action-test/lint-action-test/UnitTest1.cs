@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using AutoFixture;
 
 namespace lint_action_test
 {
@@ -14,7 +15,8 @@ namespace lint_action_test
 
             Assert.AreNotEqual(MyTeStVar, _myTeStVar2);
 
-            bool item1 = true; var item2 = false; 
+            bool item1 = true; var item2 = false;                                               
+            Assert.AreNotEqual(item1, item2);
         }
     }
 }
