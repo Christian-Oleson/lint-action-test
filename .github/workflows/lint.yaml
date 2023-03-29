@@ -28,9 +28,6 @@ jobs:
     - id: restore
       uses: nuget/setup-nuget@v1
 
-    - name: Build Solution
-      run: msbuild ${{ env.SOLUTION }} /p:Configuration=Release
-
     - name: Run linters
       uses: wearerequired/lint-action@v2
       with:
